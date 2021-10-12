@@ -2,7 +2,7 @@ function verificarRespuestas() {
 	var total = 7;
 	var puntos = 0;
 	var myForm = document.forms["quizForm"];
-	var respuestas = ["a", "b", "a", "c", "c", "b", "c"];
+	var respuestas = ["a", "b", "a", "c", "c", "b", "a"];
 
 	for (let i = 1; i <= total; i++) {
 		if (

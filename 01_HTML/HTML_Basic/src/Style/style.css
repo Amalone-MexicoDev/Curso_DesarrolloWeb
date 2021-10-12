@@ -1,3 +1,7 @@
+/*
+*		Todo el CSS de esta pagina esta para facilitar el maquetado, (varias de estas clases pueden ser eliminadas mas adelante)
+*/
+
 body {
 	background: rgb(12, 12, 12);
 	color: white;
@@ -52,7 +56,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;}
+	align-items: center;
+}
 .quiz-pregunta {
 	font-size: 40px;
 	-webkit-text-stroke: medium;

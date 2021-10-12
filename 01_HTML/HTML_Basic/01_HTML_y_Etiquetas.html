@@ -17,6 +17,7 @@
 		<title>Cursos</title>
 	</head>
 	<body>
+		<!--Algunas etiquetas tienen una segunda clase "general" es para un estilo en especifico, (puede ser eliminada mas adelante.) -->
 		<div class="container">
 			<div class="header general">
 				<h1>
@@ -43,7 +44,9 @@
 						y texto en las paguinas web.
 					</p>
 				</div>
+				<!--Esta parte engloba toda la grid de pregustas y sus respuestas-->
 				<div class="bodyContainer general">
+					<!--La etiqueta "curso_container" esta unicamente como guia para maquetado. (puede ser eliminado mas adelante) -->
 					<div class="curso_container">
 						<form
 							name="quizForm"
@@ -534,7 +537,8 @@
 								<!----------------------------------------------------------------PREGUNTA_07----------------------------------->
 								<h3>
 									Cual de estas etiquetas
-									creara un Heading.
+									define el cuerpo de una
+									pagina
 								</h3>
 								<div class="quizContainer">
 									<!----------------------------------------------------------------RESPUESTA-------------------------------------->
@@ -549,12 +553,12 @@
 												class="
 													pregunta-frase
 												"
-												>video</span
+												>body</span
 											>&gt;&lt;/<span
 												class="
 													pregunta-frase
 												"
-												>video</span
+												>body</span
 											>&gt;
 										</div>
 										<input
@@ -575,12 +579,12 @@
 												class="
 													pregunta-frase
 												"
-												>button</span
+												>html</span
 											>&gt;&lt;/<span
 												class="
 													pregunta-frase
 												"
-												>button</span
+												>html</span
 											>&gt;
 										</div>
 										<input
@@ -616,8 +620,9 @@
 										/>
 									</div>
 								</div>
-								<!----------------------------------------------------------------PREGUNTA_07----------------------------------->
+								<!----------------------------------------------------------------PREGUNTA_08----------------------------------->
 							</div>
+							<!--Este inpun se encarga de enviar todas las respuestas al script para ser valoradas.-->
 							<input
 								class="boton"
 								type="submit"
@@ -625,17 +630,20 @@
 							/>
 						</form>
 					</div>
+					<!--Este es el final de la etiqueta "curso_container"-->
 
 					<div id="resultado">
+						<!--Esta etiqueta esta identificada por JavaScript para ser usada como contenedor de las respuestas.-->
 						<p>
 							Dale click para ver tus
 							resultados!
 						</p>
 					</div>
 				</div>
+				<!--Final de la etiqueta "body_container" donde se encuentra todo lo relacionado con el cuestionario.-->
 			</div>
-
 			<div class="sidebar general">
+				<!--Etiqueda usada para el lateral derecho de la paguina, donde estara el widget de discord (Pueden ser agragadas mas cosas.)-->
 				<iframe
 					src="https://discordapp.com/widget?id=818251363012182023&theme=dark"
 					width="100%"
@@ -646,6 +654,7 @@
 				></iframe>
 			</div>
 			<div class="footer general">
+				<!--Pues el Footer weee, no mames.-->
 				<h1>Footer</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur

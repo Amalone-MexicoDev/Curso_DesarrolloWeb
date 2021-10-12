@@ -1,4 +1,4 @@
-/*-------------START GRID-------------------*/
+/*-------------Inicio de la GRID-------------------*/
 body {
 	background: #181818;
 	color: white;
@@ -49,7 +49,10 @@ body {
 	grid-column-start: footer;
 	grid-column-end: footer;
 }
-/*--------------END GRID-----------------------*/
+/*--------------Final de la GRID-----------------------*/
+/*
+*		Todos los estilos apartir de aqui estan siendo creados en cascada.
+*/
 .banner {
 	max-width: 235px;
 }
@@ -90,7 +93,11 @@ body {
 	text-shadow: 2px 2px 2px black;
 }
 
-/*---------------------RESPONSIVE-------------------*/
+/*---------------------Inicio del RESPONSIVE-------------------*/
+/*
+*		El responsive esta adaptado solamente a 2 resoluciones, para agregar mas, usar: grid-template-areas sobre el .container
+*		para evitar problemas de compatibilidad.
+*/
 
 @media screen and (max-width: 1000px) {
 	.container {
@@ -106,7 +113,6 @@ body {
 		grid-gap: 15px;
 		grid-template-columns: repeat(3, auto);
 		grid-template-rows: repeat(12, 1fr);
-	
 	}
 }
 @media screen and (max-width: 500px) {
@@ -123,6 +129,5 @@ body {
 		grid-gap: 15px;
 		grid-template-columns: repeat(1, auto);
 		grid-template-rows: repeat(12, 1fr);
-	
 	}
 }
