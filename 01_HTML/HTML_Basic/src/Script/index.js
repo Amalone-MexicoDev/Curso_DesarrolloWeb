@@ -1,8 +1,8 @@
 function verificarRespuestas() {
-	var total = 3;
+	var total = 7;
 	var puntos = 0;
 	var myForm = document.forms["quizForm"];
-	var respuestas = ["a", "b", "a"];
+	var respuestas = ["a", "b", "a", "c", "c", "b", "c"];
 
 	for (let i = 1; i <= total; i++) {
 		if (
