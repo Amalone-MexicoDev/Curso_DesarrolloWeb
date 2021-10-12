@@ -114,4 +114,13 @@ input[type="radio"] {
 
 
 
-/**/
+/*-------------------RESPONSIVE-----------------------*/
+@media screen and (max-width: 1020px) {
+	.container {
+		grid-template-areas:
+			"header header header"
+			"body body body"
+			"sidebar sidebar sidebar"
+			"footer footer footer";
+	}
+}
